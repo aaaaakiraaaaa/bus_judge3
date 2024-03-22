@@ -1,0 +1,21 @@
+2024-01-11 16:18:34,930 Evaluation process is started.
+python "C:\nnc\neural_network_console\libs\Python\Lib\site-packages\nnabla\utils\cli\cli.py" forward
+	-c "C:\Users\PC_User\Documents\nnc\cnn_5.files\20240111_154643\results.nnp"
+	-d "C:\Users\PC_User\Documents\datasetneoneo\test01.csv"
+	-o "C:\Users\PC_User\Documents\nnc\cnn_5.files\20240111_154643"
+	--replace_path
+2024-01-11 16:18:35,962 [nnabla]: [CALLBACK]: Exec forward on local
+2024-01-11 16:18:36,069 [nnabla]: Using context "Context(backend=['cudnn:float', 'cuda:float', 'cpu:float'], array_class='CudaCachedArray', device_id='0')"
+2024-01-11 16:18:38,204 [nnabla]: data 64 / 676
+2024-01-11 16:18:38,209 [nnabla]: data 128 / 676
+2024-01-11 16:18:38,228 [nnabla]: data 192 / 676
+2024-01-11 16:18:38,247 [nnabla]: data 256 / 676
+2024-01-11 16:18:38,265 [nnabla]: data 320 / 676
+2024-01-11 16:18:38,283 [nnabla]: data 384 / 676
+2024-01-11 16:18:38,303 [nnabla]: data 448 / 676
+2024-01-11 16:18:38,320 [nnabla]: data 512 / 676
+2024-01-11 16:18:38,339 [nnabla]: data 576 / 676
+2024-01-11 16:18:38,357 [nnabla]: data 640 / 676
+2024-01-11 16:18:38,374 [nnabla]: data 676 / 676
+2024-01-11 16:18:38,388 [nnabla]: Forward Completed.
+NNabla command line interface (Version:1.33.1, Build:230206070804, Callback:NNabla SSH callback module.)
